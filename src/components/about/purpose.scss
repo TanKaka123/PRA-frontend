@@ -1,0 +1,23 @@
+@import "../../sass/abstracts/variables.scss";
+
+.color--primary{
+    color: $color-primary;
+}
+.purpose_contain{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10rem;
+    list-style-type: none;
+    li{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        
+        p{
+            max-width: 70%;
+        }
+    }
+
+}
+

@@ -1,0 +1,55 @@
+@import "../../sass/abstracts/variables.scss";
+
+.box_contain--contact
+{
+    cursor: pointer;
+    border-style: solid;
+    border-color: $border-primary;
+    // padding: 4%;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    border-radius: 43px;
+    
+    &:hover{
+        background-color: #1b0701;
+        border-color:$color-primary;
+        
+        div:first-child{
+            animation: spin 1s infinite alternate-reverse;
+        }
+        
+        .sleep-icon{
+            animation: zoom-in-zoom-out 1s  ease-out infinite;
+        }
+    }
+    h1{
+        font-weight: 300;
+        font-size: larger;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      
+    }
+    
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }

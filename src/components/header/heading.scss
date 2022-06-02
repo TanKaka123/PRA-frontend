@@ -1,0 +1,44 @@
+@import "../../sass/abstracts/variables.scss";
+ 
+.content-details {
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    width: 100%;
+   
+    nav{
+      display: grid;
+      grid-template-columns: 2fr 4fr;
+      grid-column-gap: 20rem;
+      ul{
+        list-style-type: none;
+        display: flex;
+       
+     
+        align-items: center;
+        a{
+          text-decoration: none;
+          color : white;
+        }
+        .btn-primary{
+            color: $color-primary;
+        }
+      }
+      ul:first-child
+      {
+        justify-content: space-between;
+        li:nth-child(2)
+        {
+          display: flex;
+          align-items : flex-end;
+          min-width: 8.5rem;
+          justify-content: space-between;
+        }
+      }
+      ul:nth-child(2)
+      {
+        justify-content: space-around;
+      }
+    }
+  }
+ 

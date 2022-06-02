@@ -1,0 +1,20 @@
+.contain_footer{
+    width: 100%;
+    background-color: #0E0E0E;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0;
+      
+    }
+    
+}

@@ -1,0 +1,14 @@
+@import "../abstracts/variables.scss";
+
+.btn-primary{
+
+    border-style: solid;
+    border-color: $color-primary ;
+    border-width: 1px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px;
+   
+    padding-left: 40px;
+    padding-right: 40px;
+}

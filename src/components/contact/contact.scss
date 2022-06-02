@@ -1,0 +1,23 @@
+@import "../../sass/abstracts/variables.scss";
+
+.list_box
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 5rem;
+    padding-top: 0;
+    gap: 6rem;
+}
+.time_contact,.list_box
+{
+    margin-top:2.5rem ;
+}
+.time_contact
+{
+    text-align: center;
+    font-weight: 400;
+    color : $color-gray;
+}
+span{
+    color : $color-primary;
+}
