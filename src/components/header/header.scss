@@ -18,5 +18,21 @@
     width: 100%;
     
 }
-
+.nav--display{
+ .pc{
+    display: block;
+  }
+ .mobile{
+    display: none;
+  }
+  @media (max-width:1024px)
+  {
+  .pc{
+      display: none;
+    }
+  .mobile{
+      display: block;
+    }
+  }
+}
  

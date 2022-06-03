@@ -5,7 +5,7 @@ import About from "./components/about/about";
 import Footer from "./components/footer/footer";
 import Follow from "./components/follow/follow";
 import BeforeAndAfter from "./components/beforeAndAfter/beforeAndAter";
-import Animal from "./components/animal/animal"
+import Animal from "./components/animal/animal";
 
 function App() {
   return (
@@ -27,9 +27,9 @@ function App() {
       <div className="distance">
         <Follow/>
       </div>
-      {/* <div className="distance">
+      <div className="distance">
         <Footer/>
-      </div> */}
+      </div>
     </div>
   );
 }
