@@ -3,13 +3,24 @@
 
 #follow{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap:10rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    @media (max-width:639px)
+    {
+      padding: 0;
+    }
+ }
+
 .desc--follow{
-  max-width: 80%;
+  
+  margin: auto;
+  @media (max-width:639px)
+  {
+    text-align: center;
+  }
+  
   h1{
     font-size: 3rem;
     span{
@@ -21,6 +32,12 @@
     word-spacing: 5px;
     color : $color-gray;
   }
+  
+}
+.contain--follow_list
+{
+    display: flex;
+    justify-content: center;
 }
 .container-follow {
     height: 100vh;
@@ -31,14 +48,15 @@
     height: 300px;
     width: 300px;
     position: relative;
+    
   }
   
   .profile {
     background-image: url(https://static.vecteezy.com/system/resources/previews/002/514/376/original/cute-cat-in-the-box-cartoon-funny-cat-play-with-box-cat-cartoon-illustration-vector.jpg);
     background-size: cover;
     background-position: center;
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     position: absolute;
     right: 50%;
     top: 50%;
@@ -48,8 +66,9 @@
   }
   
   .profile::before {
-    content: "Click to follow me";
-    font-family: poppins;
+    content: "Click to Follow me";
+    font-family: $font-primary;
+    text-align: center;
     font-weight: bold;
     color: #fff;
     padding: 5px 8px;

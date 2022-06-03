@@ -11,7 +11,8 @@ function follow() {
         <div className="desc--follow">
             <h1 className="">Follow me now. If you <span>Can</span></h1>
             <h2 className="">Niels.to appreciates to have friends and fans from so many walks of life around the world. Feel free to connect on social media with us.</h2>
-        </div>
+       </div> 
+        <div className="contain--follow_list">
         <div className="container-follow">
             <div className="social">
             <a href="https://github.com/TanKaka123" target="_blank" className="twitter">
@@ -29,6 +30,8 @@ function follow() {
             </div>
             <div className="profile"></div>
         </div>
+        </div>
+     
     </div>
   );
 }

@@ -6,14 +6,15 @@
 .purpose_contain{
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-column-gap: 10rem;
+    grid-row-gap: 1.5rem;
     list-style-type: none;
     li{
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
-        
+       
         p{
             max-width: 70%;
         }

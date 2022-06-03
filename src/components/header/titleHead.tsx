@@ -5,7 +5,7 @@ function titleHead() {
     return (
         <div>
             <h1 className="text_head--title">
-                Protect rare <LogoIcon/>animal
+                Protect rare <img src="./LogoLarge.png" alt="" /> animal
             </h1>
         </div>
     );

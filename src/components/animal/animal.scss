@@ -10,9 +10,10 @@
       
         width: 300px ;
         height: 200px;
-        padding: 3rem;
+        // padding: 50px;
+        display: block;
+        margin: auto;
         padding-bottom: 0;
-       
     }
     .border{
         position: absolute;
@@ -32,6 +33,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 4rem;
+    
 }
 
 .btn--more{
@@ -93,11 +95,11 @@
 
 .content--animal {
     position: relative;
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     margin: auto;
     overflow: hidden;
-
+    margin-bottom: 5rem;
     h3{
     
         font-size: 16px;
@@ -107,12 +109,14 @@
     & .contents-overlay {
         background: rgba(0,0,0,0.7);
         position: absolute;
-        width: 350px ;
-        height: 250px;
+        width: 300px ;
+        height: 200px;
         left: 0;
         top: 0;
-        bottom: 0;
+        // bottom: 0;
         right: 0;
+        display: block;
+        margin: auto;
         opacity: 0;
         -webkit-transition: all 0.4s ease-in-out 0s;
         -moz-transition: all 0.4s ease-in-out 0s;
@@ -149,12 +153,12 @@
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
-    padding-bottom: 0.5rem;
+    // padding-bottom: 0.5rem;
     text-transform: uppercase;
   }
   & h3:nth-child(2)
   {
-      padding-bottom: 3rem;
+      margin-bottom: 8rem;
   }
 }
 
@@ -183,8 +187,8 @@
     left: 80%;
   }
 .desc_animal--items{
-    padding: 0.5rem;
-    width: 300px ;
+    padding: 8px;
+    width: 290px ;
     display: block;
     margin: auto;
     margin-top: -20px;

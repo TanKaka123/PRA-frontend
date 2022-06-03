@@ -1,13 +1,37 @@
 .text_head--title{
     position: absolute;
-   height: auto;
+    height: auto;
     top: 15rem;
     width: 100%;
     text-align: center;
     font-size: 6rem;
     font-weight: 400;
-    img{
+    img{ 
         width: 6rem;
         height: 6rem;
+    }
+
+    @media (min-width : 740px) and (max-width:1024px)
+    {
+        &{
+            font-size: 4rem;
+            top: 10rem;
+        }
+        img{ 
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+    @media (max-width : 739px)
+    {
+        &{
+            font-size: 2rem;
+            top: 3.5rem;
+        }
+        img{ 
+            width: 2rem;
+            height: 2rem;
+        }
+        
     }
 }

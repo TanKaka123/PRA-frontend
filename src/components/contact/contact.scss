@@ -2,11 +2,15 @@
 
 .list_box
 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 5rem;
     padding-top: 0;
-    gap: 6rem;
+    // gap: 6rem;
+    overflow: auto;
 }
 .time_contact,.list_box
 {

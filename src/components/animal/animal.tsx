@@ -44,13 +44,13 @@ function Animal() {
                 
                     return (
                         <div className="animal_item content--animal">
-                              <div className="contents-overlay"></div>
-                            <img src={"./animal/"+val.name+".png" } alt="animal" className="" />
-                            <div className="contents-details fadeIn-bottom">
+                            <div className="contents-overlay"></div>
+                            <img src={"./animal/"+val.name+".png" } alt="animal" />
+                            <div className="contents-details fadeIn-top ">
                                 <h3>{val.classify}</h3>
                                 <h3>{val.status}</h3>
                             </div>
-                            <div className="border"></div>
+                            {/* <div className="border"></div> */}
                             <div className="desc_animal--items">
                                 <h2 >{val.name}</h2>
                                 <p >  {val.desc}</p>

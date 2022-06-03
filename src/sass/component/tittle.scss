@@ -9,6 +9,14 @@
     &:hover{
         animation: move 0.5s linear;
     }
+    @media (min-width: 640px) and (max-width : 1024px)
+    {
+        font-size: 48px;
+    }
+    @media (max-width: 640px) 
+    {
+        font-size: 38px;
+    }
 }
 
 @keyframes move{
@@ -16,7 +24,7 @@
         transform: translateX(-50%);
     }
     50%{
-        transform: translateX(-5%);
+        transform: translateX(-30%);
     }
     100%{
         transform: translateX(-50%);

@@ -19,11 +19,9 @@ function purpose() {
   return (
     <div>
       <ul className="purpose_contain">
-        
-         <Context text="There will be a small title here A couple of sentences of text" />
-
-         <Context text="There will be a small title here A couple of sentences of"/>
-          <Context text="There will be a small title here A couple of sentences of"/>
+        <Context text="There will be a small title here A couple of sentences of text" />
+        <Context text="There will be a small title here A couple of sentences of"/>
+        <Context text="There will be a small title here A couple of sentences of"/>
       </ul>
     </div>
   );

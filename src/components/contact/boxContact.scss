@@ -6,11 +6,13 @@
     border-style: solid;
     border-color: $border-primary;
     // padding: 4%;
+    
+    min-width: 15rem;
     text-align: center;
     padding-top: 6rem;
     padding-bottom: 6rem;
     border-radius: 43px;
-    
+    margin:  0 0.5rem;
     &:hover{
         background-color: #1b0701;
         border-color:$color-primary;

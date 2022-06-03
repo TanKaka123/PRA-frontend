@@ -5,11 +5,13 @@
     top: 0;
     left: 0 ;
     width: 100%;
+
    
+
     nav{
       display: grid;
       grid-template-columns: 2fr 4fr;
-      grid-column-gap: 20rem;
+      grid-column-gap: 13rem;
       ul{
         list-style-type: none;
         display: flex;
@@ -34,11 +36,24 @@
           min-width: 8.5rem;
           justify-content: space-between;
         }
+        img{
+          padding-left: 1rem;
+        }
       }
       ul:nth-child(2)
       {
+        
         justify-content: space-around;
+        max-width: 80%;
+        
       }
+
+    }
+     @media (max-width:1024px){
+      &{
+        display: none;
+      }
+     
     }
   }
  
