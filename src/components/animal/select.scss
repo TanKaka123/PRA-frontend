@@ -1,0 +1,18 @@
+@import "../../sass/abstracts/variables.scss";
+
+#cars{
+    border: solid $color-primary;
+    min-width: 8rem;
+    min-height: 2.5rem;
+    color : white;
+    background-color: transparent;
+    outline: none;
+    border-radius: 0%;
+    option{
+        color: white;
+        background-color: black;
+    }
+    & ::after{
+        background-color: red;
+    }
+}

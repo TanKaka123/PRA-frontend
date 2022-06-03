@@ -1,0 +1,97 @@
+[{
+    "name": "Aonyx cinereus",
+    "classify" : "Mammalia",
+    "status" : "danger",
+    "live" : "underwater" ,
+    "desc":"A. Cinereus is the smallest otter in the world, weighing less than 5 kg. They live in salt marshes and freshwater wetlands",
+    "url":"https://vi.wikipedia.org/wiki/R%C3%A1i_c%C3%A1_vu%E1%BB%91t_b%C3%A9?tableofcontents=0"
+},
+{
+    "name": "Pica pica",
+    "classify" : "Aves",
+    "status":"less interested",
+    "live" : "sky" ,
+    "desc":"Birds settled in Europe, much of Asia, northwest Africa. It is one of several species of birds in the family Corvidae with the common name magpie",
+    "url":"https://vi.wikipedia.org/wiki/%C3%81c_l%C3%A0"
+},
+{
+    "name": "Brown Dove",
+    "classify" : "Aves",
+    "status":"danger",
+    "live" : "sky" ,
+    "desc":"The brown dove (Columba punicea) is a species of bird in the Columbidae family.",
+    "url":"https://vi.wikipedia.org/wiki/B%E1%BB%93_c%C3%A2u_n%C3%A2u"
+},
+{
+    "name": "Clouded Leopard",
+    "classify" : "Mammalia",
+    "status":"danger",
+    "live" : "ground" ,
+    "desc":"The Clouded Leopard is a medium-sized cat in the Cat Family, 60 to 110 cm (2' - 3'6) full-bodied and 11 - 20 kg (25 lbs 4oz - 44 lbs) in weight.",
+    "url":"https://vi.wikipedia.org/wiki/B%C3%A1o_g%E1%BA%A5m"
+},
+{
+    "name": "Asian Golden Cat",
+    "classify" : "Mammalia",
+    "status":"threatened",
+    "live" : "ground" ,
+    "desc":"The Asian Golden Cat is a medium-sized (90 cm long, plus a 50 cm tail) carnivore weighing 12 to 16 kg, mostly in the wild.",
+    "url":"https://vi.wikipedia.org/wiki/B%C3%A1o_l%E1%BB%ADa"
+},
+{
+    "name": "White-Handed Gibbon",
+    "classify" : "Mammalia",
+    "status":"Emergency",
+    "live" : "ground" ,
+    "desc":"Nomenclature: Hylobates lar, is a primate of the apes family. This is considered one of the wisest apes and is often encountered in zoos.",
+    "url":"https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%A3n_tay_tr%E1%BA%AFng"
+},
+{
+    "name": "Wolf fire",
+    "classify" : "Mammalia",
+    "status":"Emergency",
+    "live" : "ground" ,
+    "desc":"The Indian wild dog (scientific name: Cuon alpinus) is a carnivore of the canidae family, the only member of the genus Cuon.",
+    "url":"https://vi.wikipedia.org/wiki/S%C3%B3i_l%E1%BB%ADa"
+},
+{
+    "name": "Border mountain turtle",
+    "classify" : "Sauropsida",
+    "status":"danger",
+    "live" : "ground" ,
+    "desc":"Mountain tortoises often live on land in crevices and valleys. This tortoise is one of the most beautiful tortoise species, with a golden brown shell and skin.",
+    "url":"https://vi.wikipedia.org/wiki/R%C3%B9a_n%C3%BAi_vi%E1%BB%81n"
+},
+{
+    "name": "Green frog",
+    "classify" : "Amphibia",
+    "status":"Missing data",
+    "live" : "ground" ,
+    "desc":"Its natural habitats are subtropical or tropical moist lowland forests and rivers. Its conservation status is currently inadequate.",
+    "url":"https://vi.wikipedia.org/wiki/%E1%BA%BEch_xanh"
+},
+{
+    "name": "Hippopus hippopus",
+    "classify" : "Bivalvia",
+    "status":"Conservation",
+    "live" : "underwater" ,
+    "desc":"The 2007 Vietnam Red Book for these species is found in the Spratlys, with classification VU A1c, d.",
+    "url":"https://vi.wikipedia.org/wiki/Trai_tai_ngh%C3%A9"
+},
+{
+    "name": "Long-legged dragon",
+    "classify" : "Malacostraca",
+    "status":"less interested",
+    "live" : "underwater" ,
+    "desc":"The spiny lobster inhabits coral reefs and shallow rocks in the tropical and subtropical Indo-Pacific.",
+    "url":"https://vi.wikipedia.org/wiki/Panulirus_longipes"
+},
+{
+    "name": "The red helmet",
+    "classify" : "Gastropoda",
+    "status":"Missing data",
+    "live" : "underwater" ,
+    "desc":"a species of large sea snail, a marine gastropod mollusk in the family Cassidae.",
+    "url":"https://vi.wikipedia.org/wiki/%E1%BB%90c_kim_kh%C3%B4i_%C4%91%E1%BB%8F"
+}
+]
